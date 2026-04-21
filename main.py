@@ -62,8 +62,8 @@ while True:
 
         print(f"\nTHE DATA HAS BEEN LOGGED {pathToHostsFile}.")
         print(f"ALL THE WEBSITE HAS BEEN BLOCKED!!!")
-        input("Press Enter to continue...")
-        os.system('cls' if os.name == 'nt' else 'clear')
+        input("Press Enter to continue...\n----------------------------------------")
+        # os.system('cls' if os.name == 'nt' else 'clear')
     except PermissionError:
         print("ERROR: No administrator permission!")
     except KeyboardInterrupt:
